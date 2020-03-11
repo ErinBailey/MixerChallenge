@@ -10,7 +10,7 @@
 
 ---
 
-# Architecture
+# Architecture II
 - MVC
   - Model - Providing the business logic in mixerlib
   - View - Jobcoin GUI/ also the CLI user input 
@@ -19,17 +19,24 @@
 ---
 
 # Pros
-- Well tested - go test covereage library
+- Tests - go test covereage library
 - Clear error messages
 - Edge cases considered and/or documented
+- Keeping it non-custodial
 
 ---
 
 # Concerns
+- Local development and early termination
+- Current implementation is asynchronous
 
 --- 
 
 # Future Tweaks
-
+- Webhooks instead of polling
+- Host the application on a highly-available remote arechitecture 
+- Depending on call volume, implement a queueing system
+- Locking down addresses
+- Synchronous go routines
 
 
