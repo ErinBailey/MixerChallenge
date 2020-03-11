@@ -1,6 +1,6 @@
-### Architecture
+## Architecture
 
-- REST API - 6 architectural principals
+- REST API
   - Uniform Interface
   - Client-Server
   - Stateless
@@ -10,15 +10,15 @@
 
 ---
 
-### Architecture II
-- MVC
-  - Model - Providing the business logic in mixerlib
-  - View - Jobcoin GUI/ also the CLI user input 
-  - Controller - Handling the API calls in clientlib
+## Architecture II
+
+- Model - Providing the business logic in mixerlib
+- View - Jobcoin GUI/ also the CLI user input 
+- Controller - Handling the API calls in clientlib
 
 ---
 
-### Pros
+## Pros
 - Tests - go test covereage library
 - Clear error messages
 - Edge cases considered and/or documented
@@ -26,13 +26,13 @@
 
 ---
 
-### Concerns
+## Concerns
 - Local development and early termination
 - Current implementation is asynchronous
 
 --- 
 
-### Future Tweaks
+## Future Tweaks
 - Webhooks instead of polling
 - Host the application on a highly-available remote arechitecture 
 - Depending on call volume, implement a queueing system
